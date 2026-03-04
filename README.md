@@ -96,7 +96,22 @@ penguin-ml-api/
 }
 Output : Adelie 
 ```
+### 🎯 Target Prediction
 
+The ML model predicts the **species of a penguin** based on physical measurements.
+
+Supported prediction classes:
+
+- **Adelie**
+- **Chinstrap**
+- **Gentoo**
+
+The prediction is generated using the following input features:
+
+- `bill_length_mm`
+- `bill_depth_mm`
+- `flipper_length_mm`
+- `body_mass_g`
 ---
 
 ## 🖥 Run Locally
@@ -183,3 +198,4 @@ It reflects production-oriented backend + ML engineering capabilities beyond not
 ## 👨‍💻 Author
 
 Built as part of a hands-on ML deployment portfolio project.
+
